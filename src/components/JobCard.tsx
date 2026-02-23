@@ -31,7 +31,7 @@ const handleSubmit = async (e: React.SyntheticEvent<HTMLFormElement>) => {
       <form onSubmit={handleSubmit} style={{ display: 'flex', gap: '10px', flexDirection: 'column' }}>
         <input
           type="url"
-          placeholder="https://github.com/PabloALiano/nimble-gravity-challenge.git"
+          placeholder="https://github.com/PabloALiano/nimble-gravity-challenge"
           value={repoUrl}
           onChange={(e) => setRepoUrl(e.target.value)}
           required
